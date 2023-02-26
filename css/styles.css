@@ -1,0 +1,147 @@
+:root {
+  --main-color-background: #ffffff;
+  --second-color-background: #2e2f42;
+  --third-color-background: #f4f4fd;
+  --main-color-headline: #2e2f42;
+  --second-color-headline: #ffffff;
+  --main-color-paragraph: #434455;
+  --second-color-paraagraph: #e7e9fc;
+  --button-color: #4d5ae5;
+  --hover-color: #404bbf;
+}
+/* clear styles */
+ul,
+ol {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+/* Body */
+body {
+  background-color: var(--main-color-background);
+  color: var(--main-color-paragraph);
+  font-family: 'roboto', sans-serif;
+}
+/* Header */
+.page-header .logo,
+.page-header .accent,
+.page-footer .accent {
+  color: var(--main-color-headline);
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+}
+.page-header .accent,
+.page-footer .accent {
+  color: var(--button-color);
+}
+.site-nav .page-main,
+.site-nav .page-second,
+.site-nav .page-third {
+  color: var(--main-color-headline);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+}
+/* .site-nav .page-main {
+}
+.site-nav .page-second {
+}
+.site-nav .page-third {
+} */
+.adress-nav .link-email,
+.adress-nav .link-phone {
+  color: var(--main-color-paragraph);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+}
+/* .adress-nav .link-email {
+}
+.adress-nav .link-phone {
+} */
+.site-nav :hover,
+.site-nav :focus,
+.site-nav :active,
+.adress-nav :hover,
+.adress-nav :focus,
+.adress-nav :active {
+  color: var(--hover-color);
+}
+/* MAIN */
+/* Hero */
+.hero {
+  background-color: var(--second-color-background);
+  color: var(--second-color-headline);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+}
+.button {
+  background-color: var(--button-color);
+  color: var(--second-color-headline);
+  cursor: pointer;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.button:hover,
+.button:focus {
+  background-color: var(--hover-color);
+}
+/* 3 Section */
+.section {
+  background-color: var(--main-color-background);
+  color: var(--main-color-paragraph);
+}
+.second-section {
+  background-color: var(--third-color-background);
+}
+.person-project {
+  background-color: var(--main-color-background);
+}
+.section-title {
+  color: transparent;
+}
+.section-header {
+  color: var(--main-color-headline);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+}
+.title {
+  color: var(--main-color-headline);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+.section-title-text {
+  font-size: 16px;
+  line-height: 1.5;
+}
+/* Footer */
+.page-footer {
+  background-color: var(--second-color-background);
+}
+.page-footer .logo {
+  color: var(--third-color-background);
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.16;
+}
+.page-footer .text {
+  color: var(--second-color-paraagraph);
+  font-size: 16px;
+  line-height: 1.5;
+}
