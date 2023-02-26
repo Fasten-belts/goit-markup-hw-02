@@ -111,7 +111,7 @@ body {
 .button-portfolio:hover,
 .button-portfolio:focus {
   color: var(--second-color-headline);
-  background: var(--button-color);
+  background-color: var(--button-color);
 }
 /* 3 Section */
 .section {
