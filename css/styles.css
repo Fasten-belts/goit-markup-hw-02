@@ -28,11 +28,12 @@ body {
 .page-header .accent,
 .page-footer .accent {
   color: var(--main-color-headline);
-  font-family: 'Raleway';
+  font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.33;
+  text-transform: uppercase;
 }
 .page-header .accent,
 .page-footer .accent {
@@ -57,7 +58,6 @@ body {
 .adress-nav .link-phone {
   color: var(--main-color-paragraph);
   font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
 }
@@ -77,13 +77,17 @@ body {
 /* Hero */
 .hero {
   background-color: var(--second-color-background);
+}
+.hero .hero-headline {
   color: var(--second-color-headline);
   font-style: normal;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
 }
+/* button */
 .button {
+  font-family: inherit;
   background-color: var(--button-color);
   color: var(--second-color-headline);
   cursor: pointer;
@@ -95,6 +99,19 @@ body {
 .button:hover,
 .button:focus {
   background-color: var(--hover-color);
+}
+.button-portfolio {
+  font-family: inherit;
+  background-color: var(--second-color-paraagraph);
+  color: var(--button-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.button-portfolio:hover,
+.button-portfolio:focus {
+  color: var(--second-color-headline);
+  background: var(--button-color);
 }
 /* 3 Section */
 .section {
@@ -139,6 +156,7 @@ body {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.16;
+  text-transform: uppercase;
 }
 .page-footer .text {
   color: var(--second-color-paraagraph);
