@@ -48,9 +48,7 @@ body {
 .page-footer .accent {
   color: var(--button-color);
 }
-.site-nav .page-main,
-.site-nav .page-second,
-.site-nav .page-third {
+.site-nav .page {
   color: var(--main-color-headline);
   font-style: normal;
   font-weight: 500;
@@ -63,8 +61,7 @@ body {
 }
 .site-nav .page-third {
 } */
-.adress-nav .link-email,
-.adress-nav .link-phone {
+.adress-nav .link {
   color: var(--main-color-paragraph);
   font-style: normal;
   font-size: 16px;
@@ -74,12 +71,12 @@ body {
 }
 .adress-nav .link-phone {
 } */
-.site-nav:hover,
-.site-nav:focus,
-.site-nav:active,
-.adress-nav:hover,
-.adress-nav:focus,
-.adress-nav:active {
+.site-nav .page:hover,
+.site-nav .page:focus,
+.site-nav .page:active,
+.adress-nav .link:hover,
+.adress-nav .link:focus,
+.adress-nav .link:active {
   color: var(--hover-color);
 }
 /* MAIN */
@@ -109,6 +106,7 @@ body {
 .button:focus {
   background-color: var(--hover-color);
 }
+/* Portfolio */
 .button-portfolio {
   font-family: inherit;
   background-color: var(--second-color-paraagraph);
@@ -122,6 +120,9 @@ body {
   color: var(--second-color-headline);
   background-color: var(--button-color);
 }
+.project{
+  color: var(--main-color-paragraph)
+}
 /* 3 Section */
 .section {
   background-color: var(--main-color-background);
@@ -130,7 +131,7 @@ body {
 .second-section {
   background-color: var(--third-color-background);
 }
-.person-project {
+.person {
   background-color: var(--main-color-background);
 }
 .section-title {
